@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: aqua;
+        }
+        .container > .container-header{
+            
+            justify-content: center;
+            background-color: blueviolet;
+           
+        }
+
+        .container > .container-body{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: blueviolet;
+            padding: 100px;
+
+           
+        }
+
+        #div1{
+            background-color: blue;
+        }
+        #div2{
+            background-color: red;
+        }
+        #div3{
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-header">HEADER</div>
+        <div class="container-body">
+            <div id="div1">
+                <p>1</p>
+            </div>
+            <div id="div2">
+                <p>2</p>
+            </div>
+            <div id="div3">
+                <p>3</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
